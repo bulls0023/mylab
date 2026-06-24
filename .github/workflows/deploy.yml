@@ -44,4 +44,4 @@ jobs:
       # 6단계: dist/ 폴더 내용을 S3 버킷과 동기화
       - name: 6. S3에 배포
         run: |
-          aws s3 sync ./dist s3://본인의-버킷이름 --delete
+          aws s3 sync ./dist s3://my-bucket-448047749573-ap-northeast-2-an  --delete
